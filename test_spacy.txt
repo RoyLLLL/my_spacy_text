@@ -1,0 +1,7 @@
+import spacy
+
+nlp1 = spacy.load(r".\output\model-best") #load the best model
+doc = nlp1("eur 3m in10mio") # input sample text
+
+labels = [ent.label_ for ent in doc.ents]
+print(labels)
