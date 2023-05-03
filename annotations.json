@@ -1,0 +1,272 @@
+{
+  "classes": [
+    "CCY",
+    "TENOR",
+    "DATE",
+    "NOTIONAL"
+  ],
+  "annotations": [
+    [
+      "eur 1m atm in 10mio\r",
+      {
+        "entities": [
+          [
+            0,
+            3,
+            "CCY"
+          ],
+          [
+            4,
+            6,
+            "TENOR"
+          ],
+          [
+            11,
+            19,
+            "NOTIONAL"
+          ]
+        ]
+      }
+    ],
+    [
+      "gbpusd 24-25 jan in 32mio\r",
+      {
+        "entities": [
+          [
+            0,
+            6,
+            "CCY"
+          ],
+          [
+            7,
+            16,
+            "DATE"
+          ],
+          [
+            17,
+            25,
+            "NOTIONAL"
+          ]
+        ]
+      }
+    ],
+    [
+      "gbpusd in usd 432mln for v/d's 02may / 01aug pls\r",
+      {
+        "entities": [
+          [
+            0,
+            6,
+            "CCY"
+          ],
+          [
+            7,
+            20,
+            "NOTIONAL"
+          ],
+          [
+            31,
+            36,
+            "DATE"
+          ],
+          [
+            39,
+            44,
+            "DATE"
+          ]
+        ]
+      }
+    ],
+    [
+      "usdkrw val 21Nov-23 vs 13-dec-23 in $15mi\r",
+      {
+        "entities": [
+          [
+            0,
+            6,
+            "CCY"
+          ],
+          [
+            11,
+            19,
+            "DATE"
+          ],
+          [
+            23,
+            32,
+            "DATE"
+          ],
+          [
+            33,
+            41,
+            "NOTIONAL"
+          ]
+        ]
+      }
+    ],
+    [
+      "sgd swap sp-9m oco sp-1y in $10 pls\r",
+      {
+        "entities": [
+          [
+            0,
+            3,
+            "CCY"
+          ],
+          [
+            9,
+            14,
+            "TENOR"
+          ],
+          [
+            19,
+            24,
+            "TENOR"
+          ],
+          [
+            25,
+            31,
+            "NOTIONAL"
+          ]
+        ]
+      }
+    ],
+    [
+      "CHN swap Spot*5m $20 \r",
+      {
+        "entities": [
+          [
+            0,
+            3,
+            "CCY"
+          ],
+          [
+            9,
+            16,
+            "TENOR"
+          ],
+          [
+            17,
+            20,
+            "NOTIONAL"
+          ]
+        ]
+      }
+    ],
+    [
+      "12x18 usdhkd in 100$ pls\r",
+      {
+        "entities": [
+          [
+            0,
+            5,
+            "TENOR"
+          ],
+          [
+            6,
+            12,
+            "CCY"
+          ],
+          [
+            13,
+            20,
+            "NOTIONAL"
+          ]
+        ]
+      }
+    ],
+    [
+      "we buy 3.5m pln ag usd spot\r",
+      {
+        "entities": [
+          [
+            7,
+            11,
+            "NOTIONAL"
+          ],
+          [
+            12,
+            22,
+            "CCY"
+          ],
+          [
+            23,
+            27,
+            "TENOR"
+          ]
+        ]
+      }
+    ],
+    [
+      "usdhkd fxswap pls usd100mio 5jan23 to 11apr23\r",
+      {
+        "entities": [
+          [
+            0,
+            6,
+            "CCY"
+          ],
+          [
+            18,
+            27,
+            "NOTIONAL"
+          ],
+          [
+            28,
+            34,
+            "DATE"
+          ],
+          [
+            38,
+            45,
+            "DATE"
+          ]
+        ]
+      }
+    ],
+    [
+      "let say March imm for usdmyr fx swap\r",
+      {
+        "entities": [
+          [
+            8,
+            17,
+            "TENOR"
+          ],
+          [
+            22,
+            28,
+            "CCY"
+          ]
+        ]
+      }
+    ],
+    [
+      "usdtry 03-nov-22 -> 14-nov-22 in 85.0m",
+      {
+        "entities": [
+          [
+            0,
+            6,
+            "CCY"
+          ],
+          [
+            7,
+            16,
+            "DATE"
+          ],
+          [
+            20,
+            29,
+            "DATE"
+          ],
+          [
+            30,
+            38,
+            "NOTIONAL"
+          ]
+        ]
+      }
+    ]
+  ]
+}
