@@ -1,0 +1,15 @@
+from spacy.training import Example
+import spacy
+from spacy.util import minibatch
+import random
+losses = {}
+nlp = spacy.load("./output/model-best")
+random.shuffle(new_data)
+examples = []
+for batch in minibatch(new_data, size=8):
+    for text, annotations in batch:
+        doc = nlp.make_doc(text)
+        example = Example.from_dict(doc, annotations)
+        nlp.update([example], drop=0.35, losses=losses)
+        print(losses)
+nlp.to_disk('./output/model-best')
